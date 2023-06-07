@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>weather panel</title>
+    <link rel="stylesheet" href="weatherstack.css">
+</head>
+<body>
+<header>
+    <div class="outlineEle"><img src="https://weatherstack.com/site_images/weatherstack_logo_white.png" alt=""></div>
+    <div class="outlineEle">
+        <a href="#" class="btn btn__pri">
+            Pricing
+        </a>
+    </div>
+    <div class="outlineEle">
+        <a href="#" class="btn btn__doc">
+            Documentation
+        </a>
+    </div>
+    <div class="outlineEle">
+        <a href="#" class="btn btn__faq">
+            FAQ
+        </a>
+    </div>
+    <div class="outlineEle">
+        <a href="#" class="btn btn__blo">
+            Blog
+        </a>
+    </div>
+    <div class="outlineEle">
+        <a href="#" class="btn btn__sta">
+            Status
+        </a>
+    </div>
+    <div class="outlineEle">
+        <a href="#" class="btn btn__old">
+            Log In
+        </a>
+    </div>
+    <div class="outlineEle">
+        <a href="#" class="btn btn__ok">
+            SIGN UP FREE
+        </a>
+    </div>
+</header>
+<div class="container">
+    <div class = "title">
+        <h1>Real-Time & Historical</h1>
+        <h1>World Weather Data API</h1>
+        <h4>Retrieve instant, accurate weather information for</h4>
+        <h4>any location in the world in lightweight JSON format</h4>
+        <span class="number_customers">
+            Trusted by 75,000 companies worldwide
+        </span>
+        <a href="#" class="btn btn__start">
+            Start Using The API
+        </a>
+    </div>
+    <div class="weatherPanel">
+        <div class="row1">Toronto, Ontario, Canada</div>
+        <div class="row2">
+            <div class="weatherToday">
+                <img src="https://weatherstack.com/site_images/weather_icon_full_sun.svg" alt="">
+                <p>Sunny</p>
+            </div>
+            <div class="temp">16°c</div>
+            <div class="details">
+                <div class="wind">Wind: 15 kmph</div>
+                <div class="precip">Precip: 0 mm</div>
+                <div class="pressure">Pressure: 1017 mb</div>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="weatherMonday">
+                <p>MON</p>
+                <img src="https://weatherstack.com/site_images/weather_icon_partly_cloudy.svg" alt="">
+                <p>14°c</p>
+            </div>
+            <div class="weatherTuesday">
+                <p>TUE</p>
+                <img src="https://weatherstack.com/site_images/weather_icon_full_sun.svg" alt="">
+                <p>11°c</p>
+            </div>
+            <div class="weatherWednesday">
+                <p>WED</p>
+                <img src="https://weatherstack.com/site_images/weather_icon_full_sun.svg" alt="">
+                <p>12°c</p>
+            </div>
+            <div class="weatherThursday">
+                <p>THU</p>
+                <img src="https://weatherstack.com/site_images/weather_icon_full_clouds.svg" alt="">
+                <p>15°c</p>
+            </div>
+            <div class="weatherFriday">
+                <p>FRI</p>
+                <img src="https://weatherstack.com/site_images/weather_icon_full_clouds.svg" alt="">
+                <p>12°c</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class = "customers">
+    <ul>
+        <li>Happy Customers:</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Deloitte_Logo.png/1200px-Deloitte_Logo.png" alt="">
+        <img src="https://logos-world.net/wp-content/uploads/2020/09/Microsoft-Logo.png" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Warner_Bros_logo.svg/1965px-Warner_Bros_logo.svg.png" alt="">
+        <img src="https://cdn.freebiesupply.com/logos/large/2x/wawa-logo-logo-png-transparent.png" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Schneider_Electric_2007.svg/1280px-Schneider_Electric_2007.svg.png" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Ericsson_logo.svg/1170px-Ericsson_logo.svg.png" alt="">
+    </ul>
+</div>
+<div class="show">
+    <div class="box">
+        <div class="realtime">
+            <img src="https://cdn.icon-icons.com/icons2/2066/PNG/512/cloud_sync_icon_125327.png" alt="">
+            <h5 class="heading">
+                Real-Time, History, Forecast
+            </h5>
+            <p>
+                Our API covers global weather data across the board - from a multi-year history all the way to live information and accurate weather forecasts.
+            </p>
+        </div>
+        <div class="locations">
+            <img src="https://icons.veryicon.com/png/o/miscellaneous/streamline-light-icon/pin-26.png" alt="">
+            <h5 class="heading">
+                Millions of locations
+            </h5>
+            <p>
+                Make use of live or hour-by-hour weather data for millions of cities and towns worldwide, supporting a variety methods to look up any location.
+            </p>
+        </div>
+        <div class="uptime">
+            <img src="data:image/png;base64,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" alt="">
+            <h5 class="heading">
+                Rock-Solid Uptime & Speed
+            </h5>
+            <p>
+                Powered by best-in-class cloud infrastructure, our API delivers data in milliseconds around the clock with an uptime of nearly 100%.
+            </p>
+        </div>
+        <div class="price">
+            <img src="https://cdn-icons-png.flaticon.com/512/4372/4372817.png" alt="">
+            <h5 class="heading">
+                Start Free, Upgrade Later
+            </h5>
+            <p>
+                Start testing the API immediately by signing up for our Free Plan. You can always upgrade later — no strings attached, no credit card required.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="detail">
+        <h4>Access to Global Weather Data, Developer-friendly</h4>
+        <h5>Get instant access to accurate weather data for any geo-point in the world and enjoy a rich set of capabilities:</h5>
+        <div class="rapi">
+            <img src="https://fontawesomeicons.com/images/svg/sync.svg" alt="">
+            <p>Real-Time Weather API</p>
+        </div>
+        <div class="hapi">
+            <img src="https://static.thenounproject.com/png/2805481-200.png" alt="">
+            <p>Historical Weather API</p>
+        </div>
+        <div class="wapi">
+            <img src="https://static.thenounproject.com/png/5227607-200.png" alt="">
+            <p>Weather Forecasts API</p>
+        </div>
+        <div class="la">
+            <img src="https://static.thenounproject.com/png/1399388-200.png" alt="">
+            <p>Location Autocomplete</p>
+        </div>
+        <div class="bapi">
+            <img src="https://www.iconpacks.net/icons/1/free-stack-icon-965-thumb.png" alt="">
+            <p>Bulk API Endpoint</p>
+        </div>
+    </div>
+    <img draggable="false" alt="World Weather Map" src="https://weatherstack.com/site_images/world_map_vector.svg" width="635" height="347">
+</div>
+<div class="pic">
+    <h1>EXAMPLE</h1>
+</div>
+<div class="grid">
+
+    <h4>Join more than 75,000 companies worldwide using the weatherstack API</h4>
+
+    <h5>We are proud of delivering accurate weather data to some of the smartest brands out there.</h5>
+
+   <div class="flogo">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Daimler_logo.jpg" alt="">
+       <img src="https://images.media-outreach.com/Thumb/800x418/311594/Deloitte_logo.JPG" alt="">
+       <img src="https://seeklogo.com/images/E/ericsson-logo-905764A368-seeklogo.com.png" alt="">
+       <img src="data:image/png;base64,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" alt="">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2w9-MEqI3Dol0wE4JQXCVGZZd5GG11FrnhA&usqp=CAU" alt="">
+   </div>
+    <div class="slogo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ENF2gPZv1ueTBbfD8v8PNxiAZRpl7aOXbA&usqp=CAU" alt="">
+        <img src="data:image/png;base64,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" alt="">
+        <img src="https://1000logos.net/wp-content/uploads/2022/07/CA-Logo-1998.png" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7aV1YEj0yf9DmUt3JNmzVjM3V7ZHMXZvwIQ&usqp=CAU" alt="">
+        <img src="https://1000logos.net/wp-content/uploads/2020/08/Rimowa-Logo-1981.png" alt="">
+    </div>
+</div>
+<div class="cta">
+    <p><span>Sign up for our Free Plan to get instant access to weather data </span> <a title="Sign up for free API access" href="/signup" class="btn btn__kk">Get Free API Access</a></p>
+</div>
+<footer>
+    <!-- start product footer -->
+    <div class="container custom-container">
+        <div class="right_side copyright-section">
+            <div class="footer-logo">
+                <a href="/"><img draggable="false" class="logo" src="https://weatherstack.com/site_images/weatherstack_logo_footer.png" alt="Weatcherstack Logo" width="197" height="35"></a>
+            </div>
+            <div class="social-links">
+                <div class="github social-logo">
+                    <a target="_blank" href="https://github.com/apilayer/weatherstack"><img draggable="false" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="25" height="25"></a>
+                </div>
+                <div class="facebook social-logo">
+                    <a target="_blank" href="https://www.facebook.com/APILayer/"><img draggable="false" src="https://www.my247gym.com/wp-content/uploads/2020/10/facebook-logo-png-transparent-background-1200x1200-1.png" width="25" height="25"></a>
+                </div>
+                <div class="instagram social-logo">
+                    <a target="_blank" href="https://www.instagram.com/apilayer/"><img draggable="false" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" width="25" height="25"></a>
+                </div>
+                <div class="youtube social-logo">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCwDncja3klyMhkKXWV1zoNQ"><img draggable="false" src="https://img.freepik.com/free-icon/youtube_318-566773.jpg" width="25" height="25"></a>
+                </div>
+                <div class="twitter social-logo">
+                    <a target="_blank" href="https://twitter.com/apilayer/"><img draggable="false" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" width="25" height="25"></a>
+                </div>
+                <div class="linkedin social-logo">
+                    <a target="_blank" href="https://www.linkedin.com/authwall?trk=ripf&amp;trkInfo=AQESw3_dz9mOEAAAAYMMykyAXLrKWTKL3Q6geO69ZLgKpP17rEgX7iUGjaigeEGynL1Rie-9w6to3tGsRihPBx-uPO7pGgRqEJ4FblxJDHlbg_VON-P_QB1Wzu_fRjrA8auiqyg=&amp;original_referer=https://apilayer.com/&amp;sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fapilayer%2F"><img draggable="false" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" width="25" height="25"></a>
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li class="heading">PRODUCT</li>
+            <li><a href="/product" hreflang="en">Pricing</a></li>
+            <li><a target="_blank" href="https://apilayer.com/provider" hreflang="en">List Your API</a>
+            </li>
+            <li><a target="_blank" href="https://apilayer.com/why-choose-apilayer" hreflang="en">Why choose us?</a>
+            </li>
+            <li><a target="_blank" href="https://apilayer.com/marketplace" hreflang="en">Marketplace</a></li>
+            <!-- <li><a title="Affiliate Program" href="/affiliates">Affiliates</a></li> -->
+        </ul>
+        <ul>
+            <li class="heading">DOCS &amp; HELP</li>
+            <li><a href="/documentation" hreflang="en">Documentation</a></li>
+            <li><a target="_blank" href="https://blog.apilayer.com/" hreflang="en">Blog</a></li>
+            <li><a href="/faq" hreflang="en">FAQs</a></li>
+            <li><a target="_blank" href="https://apilayer.com/press" hreflang="en">Press</a></li>
+            <li><a href="/api-glossary" hreflang="en">API Glossary</a></li>
+        </ul>
+        <ul>
+            <li class="heading">ACCOUNT</li>
+            <li><a href="/login" hreflang="en">Log In</a></li>
+            <li><a href="/forgot" hreflang="en">Forgot Password</a></li>
+            <li><a href="/signup/free" hreflang="en">FREE Signup</a></li>
+        </ul>
+        <ul>
+            <li class="heading">GET IN TOUCH</li>
+            <li><a class="apilayer-support" hreflang="en">Contact</a></li>
+            <li><a class="apilayer-support" hreflang="en">Get a quote</a></li>
+        </ul>
+
+        <div id="ownership-popup" class="overlay" style="display:none;">
+            <div class="popup">
+                <img src="/site_images/Api-PopUp-Banner.png">
+            </div>
+        </div>
+    </div>
+    <!-- end product footer -->
+    <div class="container1">
+        <div class="copyright-link">
+            <a target="_blank" href="https://www.ideracorp.com/legal/APILayer">Imprint / Legal</a> | <a target="_blank" href="https://www.ideracorp.com/Legal/APILayer/PrivacyStatement">Privacy</a> | <a target="_blank" href="https://www.ideracorp.com/Legal/Terms-of-Use">Terms</a> | <a target="_blank" href="https://www.ideracorp.com/Legal/APILayer/PrivacyStatement">Cookie Preference</a> | <a href="https://weatherstack.com/sitemap.php">Sitemap</a>
+        </div>
+        <div class="copyright-text">
+            <span>© 2022 Weatherstack API, an <a target="_blank" href="https://apilayer.com/">APILayer</a>  product. All rights reserved.</span>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
